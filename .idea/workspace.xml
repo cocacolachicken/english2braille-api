@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2712a46-9f4f-4f98-b80c-282f8b163a77" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/grade2Translator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - all_abrs.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - isolated_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - lettersnumbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - partial_and_connected.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/alternate meanings - single_words.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/braile_as_unicode_csv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/brailleTranslator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/grade_one_brailleTranslator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/letters_braille.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/partial_word.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/ps_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/updatedBrailleTranslator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grade2Translator/whole_word.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +55,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -53,6 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/wjsn/PycharmProjects/flaskProject/grade2Translator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +86,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/grade2Translator" />
+      <recent name="$PROJECT_DIR$/grade 2 translator" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -74,7 +102,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -92,7 +120,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691972384735</updated>
       <workItem from="1691972390627" duration="448000" />
-      <workItem from="1691972910737" duration="4852000" />
+      <workItem from="1691972910737" duration="5953000" />
+      <workItem from="1692010444600" duration="3668000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -174,7 +203,31 @@
       <option name="project" value="LOCAL" />
       <updated>1691977674932</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1691978027373</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691978027373</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit">
+      <option name="closed" value="true" />
+      <created>1691978778647</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691978778647</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit">
+      <option name="closed" value="true" />
+      <created>1691978922539</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691978922539</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +250,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/flaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1691977652728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flaskProject$updatedBrailleTranslator.coverage" NAME="updatedBrailleTranslator Coverage Results" MODIFIED="1692013598309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
+    <SUITE FILE_PATH="coverage/flaskProject$brailleTranslator.coverage" NAME="brailleTranslator Coverage Results" MODIFIED="1692011802259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
+    <SUITE FILE_PATH="coverage/flaskProject$ps_test.coverage" NAME="ps_test Coverage Results" MODIFIED="1692011535354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
+    <SUITE FILE_PATH="coverage/flaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1692014104727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flaskProject$test.coverage" NAME="test Coverage Results" MODIFIED="1692011673759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
   </component>
 </project>

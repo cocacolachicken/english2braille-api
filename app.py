@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-from translate import translate as tr
+from grade2Translator.updatedBrailleTranslator import translate_word as tr
 
 import json
 
