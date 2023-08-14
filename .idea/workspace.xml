@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2712a46-9f4f-4f98-b80c-282f8b163a77" name="Changes" comment="added abigail's translator">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - abr5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - all_abrs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - isolated_words.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - lettersnumbers.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - partial_and_connected.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/alternate meanings - single_words.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/braile_as_unicode_csv.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/brailleTranslator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/grade_one_brailleTranslator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/letters_braille.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/partial_word.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/ps_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/updatedBrailleTranslator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade2Translator/whole_word.csv" beforeDir="false" />
+    <list default="true" id="e2712a46-9f4f-4f98-b80c-282f8b163a77" name="Changes" comment="removed everything">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/translate.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +103,7 @@
       <workItem from="1691972390627" duration="448000" />
       <workItem from="1691972910737" duration="5953000" />
       <workItem from="1692010444600" duration="3668000" />
-      <workItem from="1692014781218" duration="1259000" />
+      <workItem from="1692014781218" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -236,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692014882790</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="removed everything">
+      <option name="closed" value="true" />
+      <created>1692016118716</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1692016118718</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +246,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit" />
     <MESSAGE value="added abigail's translator" />
-    <option name="LAST_COMMIT_MESSAGE" value="added abigail's translator" />
+    <MESSAGE value="removed everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed everything" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,5 +268,6 @@
     <SUITE FILE_PATH="coverage/flaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1692014104727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/english2braille_api$updatedBrailleTranslator.coverage" NAME="updatedBrailleTranslator Coverage Results" MODIFIED="1692015988030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
     <SUITE FILE_PATH="coverage/flaskProject$test.coverage" NAME="test Coverage Results" MODIFIED="1692011673759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/grade2Translator" />
+    <SUITE FILE_PATH="coverage/english2braille_api$translate.coverage" NAME="translate Coverage Results" MODIFIED="1692016325727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
