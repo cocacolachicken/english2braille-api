@@ -2,7 +2,6 @@ from flask import Flask
 from flask import request
 from grade2Translator.updatedBrailleTranslator import translate_word as tr
 
-import json
 
 app = Flask(__name__)
 
