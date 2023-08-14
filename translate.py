@@ -34,3 +34,5 @@ def translate(string):
     unicode_string += chr(10240)
 
     return unicode_string
+
+print(translate(str(input())))
