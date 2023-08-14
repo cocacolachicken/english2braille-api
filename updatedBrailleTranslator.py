@@ -4,22 +4,22 @@ import string
 pd.set_option('display.max_columns', None)
 pd.set_option('max_colwidth', None)
 
-lt_brailleData = pd.read_csv(r'C:\Users\yang\Desktop\Coding\Braille-Translator\alternate meanings - lettersnumbers.csv')
+lt_brailleData = pd.read_csv(r'alternate meanings - lettersnumbers.csv')
 df_lt_brailleData = pd.DataFrame(lt_brailleData)
 
 partial_brailleData = pd.read_csv(
-    r'C:\Users\yang\Desktop\Coding\Braille-Translator\alternate meanings - partial_and_connected.csv')
+    r'alternate meanings - partial_and_connected.csv')
 df_partial_brailleData = pd.DataFrame(partial_brailleData)
 
-whole_brailleData = pd.read_csv(r'C:\Users\yang\Desktop\Coding\Braille-Translator\alternate meanings - all_abrs.csv')
+whole_brailleData = pd.read_csv(r'alternate meanings - all_abrs.csv')
 df_whole_brailleData = pd.DataFrame(whole_brailleData)
 
 isolated_brailleData = pd.read_csv(
-    r'C:\Users\yang\Desktop\Coding\Braille-Translator\alternate meanings - isolated_words.csv')
+    r'alternate meanings - isolated_words.csv')
 df_isolated_brailleData = pd.DataFrame(isolated_brailleData)
 
 single_brailleData = pd.read_csv(
-    r'C:\Users\yang\Desktop\Coding\Braille-Translator\alternate meanings - single_words.csv')
+    r'alternate meanings - single_words.csv')
 df_single_brailleData = pd.DataFrame(single_brailleData)
 
 numData = dict(digits=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'])
@@ -237,7 +237,7 @@ def translate_word(word):
             letterBooleanList = df_lt_brailleData['letter'] == word[pointer]
             letter_data = df_lt_brailleData.loc[letterBooleanList]
             letter_unicode = letter_data['unicode']
-            braille_char = chr(letter_unicode)
+            braille_char = chr(letter_unicode.values[0])
             unicode_string += braille_char
             pointer += 1
 
@@ -258,14 +258,14 @@ def translateSignAndNum(sign):
             letterBooleanList = df_lt_brailleData['letter'] == list_sign[i]
             letter_data = df_lt_brailleData.loc[letterBooleanList]
             letter_unicode = letter_data['unicode']
-            braille_char = chr(letter_unicode)
+            braille_char = chr(letter_unicode.values[0])
             unicode_ans += braille_char
 
         else:
             letterBooleanList = df_lt_brailleData['letter'] == list_sign[i]
             letter_data = df_lt_brailleData.loc[letterBooleanList]
             letter_unicode = letter_data['unicode']
-            braille_char = chr(letter_unicode)
+            braille_char = chr(letter_unicode.values[0])
             unicode_ans += braille_char
             alreadyNumSign = False
 

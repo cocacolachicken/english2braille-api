@@ -1,6 +1,6 @@
 from flask import Flask
 from flask import request
-from translate import translate_word as tr
+from updatedBrailleTranslator import translate_word as tr
 
 
 app = Flask(__name__)
