@@ -124,6 +124,19 @@ def getIsolatedWord(string):
     idx = 0
     isFound = False
     found_unicode_string = ''
+
+    if string.isupper():
+        string, found_unicode_string = wholeStrUpperCase(string, found_unicode_string)
+
+    listStr = list(string)
+
+    for s in range(len(listStr)):
+        if listStr[s].isupper():
+            capital_char = chr(10272)
+            found_unicode_string += capital_char
+            listStr[s] = listStr[s].lower()
+            string = ''.join(listStr)
+
     for elem in df_isolated_brailleData['isolated words']:
         idx += 1
 
@@ -141,6 +154,19 @@ def getSingleWord(string):
     idx = 0
     isFound = False
     found_unicode_string = ''
+
+    if string.isupper():
+        string, found_unicode_string = wholeStrUpperCase(string, found_unicode_string)
+
+    listStr = list(string)
+
+    for s in range(len(listStr)):
+        if listStr[s].isupper():
+            capital_char = chr(10272)
+            found_unicode_string += capital_char
+            listStr[s] = listStr[s].lower()
+            string = ''.join(listStr)
+
     temp = df_single_brailleData['single_words']
     for elem in temp:
         idx += 1
