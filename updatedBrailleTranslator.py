@@ -315,6 +315,11 @@ def getNextWord(arr):
 
     return ans
 
+
+# arrayInput = arrayWordOrSign(str(input()))
+
+# print(getNextWord(arrayInput))
+
 # print(translate_word('CHARACTERISTICS'))
 # print(chr(10288) + chr(10269))
 
